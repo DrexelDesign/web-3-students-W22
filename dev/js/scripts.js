@@ -1,16 +1,23 @@
-import $ from "jquery";
+import { skillsTrigger } from "./scrollAnimation.js"
 
-let $nav = $('nav[data-nav]');
-let isVisible = false;
+window.addEventListener('load', function(){
+    // this will call the skillsTrigger function located in the scrollAnimation.js file
+    skillsTrigger("right center", ".gallery","#skynet");
 
-$(".nav-btns").on("click", function(){
-    console.log("click");
-    if(isVisible === false){
-        $nav.show();
-        isVisible = true;
-    }
-    else{
-        $nav.hide();
-        isVisible = false;
-    }
-})
+    skillsTrigger("left center",".yellow-bar","#skills-content");
+});
+
+
+
+// demoThing();
+
+// console.log("this is working!");
+
+
+// function demoThing(){
+//     console.log("this is working inside function!");
+// }
+
+
+// will call the function
+// demoThing();
