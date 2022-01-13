@@ -1,6 +1,6 @@
 // import { skillsTrigger } from "./scrollAnimation.js"
 
-import { slideInRight } from "./scrollAnimation.js"
+import { slideInRight, slideInLeft} from "./scrollAnimation.js"
 
 
 
@@ -40,8 +40,42 @@ window.addEventListener('load', function(){
         //  i = i + 1;   === i++
     for(let i = 0; i < triggerElements.length; i++){
         console.log(triggerElements[i]);
-        slideInRight(triggerElements[i], animationElements[i]);
+
+        if(triggerElements[i] === "#skills-content" || triggerElements[i] === "#history-middle"){
+            console.log(i + " is the index value of triggerElements");
+        }
+
+        //  = 1 = 6;
+        //  == 
+        //  === 1 === 2
+
+
+        // if(2 === 2){
+        //     // this is the true statement
+
+        // }else{
+        //     // this is the false statement
+
+        // }
+
+
+
+        
+        if( i === triggerElements.length/2){
+            slideInLeft(triggerElements[i], animationElements[i]);
+        }else{
+            slideInRight(triggerElements[i], animationElements[i]);
+        }
     }
+
+    // for(let i = 2; i < triggerElements.length; i++){
+    //     slideInLeft(triggerElements[i], animationElements[i]);
+    // }
+
+
+    // for (i in triggerElements) {
+    //     console.log(triggerElements[i]);
+    // }
 
 
     // slideInRight();
