@@ -37,12 +37,28 @@ window.addEventListener('load', function(){
     // console.log(animationElements);
     // console.log(animationElements.length)
 
+
+    let buttonIndex = 0;
+
+    for( const element of triggerElements){
+        // console.log(buttonIndex);
+        console.log(element + " is an element");
+        
+        if(element === "#history-first"){
+            console.log("The index is " + buttonIndex);
+        }
+
+        buttonIndex ++;
+    }
+
+
+
         //  i = i + 1;   === i++
     for(let i = 0; i < triggerElements.length; i++){
-        console.log(triggerElements[i]);
+        // console.log(triggerElements[i]);
 
         if(triggerElements[i] === "#skills-content" || triggerElements[i] === "#history-middle"){
-            console.log(i + " is the index value of triggerElements");
+            // console.log(i + " is the index value of triggerElements");
         }
 
         //  = 1 = 6;
