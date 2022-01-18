@@ -31,14 +31,18 @@ header {
             display: flex;
             grid-area: burger;
             padding: 10px;
+            position: relative;
 
             @include lg {
                 display: none !important;
             }
 
-            i {
-                cursor: pointer;
-                font-size: rem-calc(30);
+            // burger svg
+            #burger{
+                position: absolute;
+                z-index: 1000;
+                height: 40px;
+                width: 40px;
             }
         }
 
