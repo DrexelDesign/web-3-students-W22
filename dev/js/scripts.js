@@ -5,21 +5,7 @@ import {scrollPage} from "./pageScroll"
 import { displayWindowSize } from "./mobileResizing"
 
 var burgerButton = document.querySelector("#burger");
-
 let canISeeMenu = false;
-
-// let bigNumber = 10;
-// let smallNumber = 5;
-
-// if(bigNumber == smallNumber){
-
-// }
-
-// if(bigNumber === smallNumber){
-
-// }
-
-
 
 function openCloseMenu(){
     if(canISeeMenu === false){
@@ -36,15 +22,12 @@ function openCloseMenu(){
 }
 
 burgerButton.addEventListener("click", openCloseMenu);
-
 let navButtons = document.querySelectorAll(".nav-btns");
 
 for (const button of navButtons){
     button.addEventListener("click", checkScrolling);
     button.addEventListener("click", openCloseMenu);
 }
-
-
 
 function checkScrolling(e) {
     // check to see which button was clicked
@@ -53,59 +36,6 @@ function checkScrolling(e) {
         scrollPage(indexValue);
     }
 }
-
-
-
-
-
-
-// for(let i = 0; i < navButtons.length; i++){
-//     navButtons[i].addEventListener("click", openCloseMenu);
-// }
-
-
-
-// console.log(navButtons);
-
-
-
-
-
-// burgerButton.addEventListener("click", () =>{
-    // console.log("burger clicked");
-
-    // = || assignment || setting object 1 (equal) = object 2
-    // == || // slip over (this is a loose comparison)
-    // === || is a direct comparison || does object 1 equal ( exact same thing ) as object 2
-
-    // if(canISeeMenu === false){
-    //     // can't see menu... play timeline of burger into X
-    //     burgerTL.play();
-    //     menuAnimation.play();
-    //     canISeeMenu = true;
-    // }else{
-    //     // can see menu.. play X back into burger
-    //     burgerTL.reverse();
-    //     menuAnimation.reverse();
-    //     canISeeMenu = false;
-    // }
-
-    // if(!canISeeMenu){
-    //     // can't see menu... play timeline of burger into X
-    //     burgerTL.play();
-    //     canISeeMenu = true;
-    // }else{
-    //     // can see menu.. play X back into burger
-    //     burgerTL.reverse();
-    //     canISeeMenu = false;
-    // }
-
-// });
-
-
-
-
-
 
 window.addEventListener('load', function(){
 
