@@ -1,0 +1,25 @@
+#gallery{
+
+
+    ul{
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-auto-rows: 300px;
+        gap: 16px;
+
+        @include xl{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "g1 g2 g3"
+            "g4 g4 g5"
+            "g4 g4 g6"
+            "g7 g8 g9"
+            "g10 g11 g12";
+        }
+
+        li{
+            background-size: cover;
+            background-position: center;
+        }
+     }
+}

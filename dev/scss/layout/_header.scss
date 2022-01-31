@@ -1,0 +1,60 @@
+/* =============
+    Header
+============= */
+header{
+    background-color: $black;
+    display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". header .";
+        padding: 20px 0;
+
+        @include xl{
+            grid-template-columns: auto 1200px auto;
+        }
+
+    >div{
+        grid-area: header;
+        display: flex;
+
+        section{
+
+            h1{
+                color: $white;
+            }
+        }
+
+        aside{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+
+           #burger-container{
+                cursor: pointer;
+                width: 30px;
+                position: relative;
+                height: 20px;
+                span{
+                    width: 100%;
+                    background-color: $white;
+                    margin-bottom: 20px;
+                    height: 2px;
+                    position: absolute;
+                    top:0;
+                    right: 0;
+                    width: 50%;
+
+                    &:nth-child(2){
+                        top: 8px;
+                        width: 100%
+                    }
+
+                    &:nth-child(3){
+                        top: 16px;
+                        width: 50%
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+#hidden{
+    display: grid;
+    grid-template-columns: auto 800px auto;
+    grid-template-areas: ". hidden .";
+    padding: 100px 0;
+    position: absolute;
+    width: 100%;
+    left:0;
+    top:200px;
+    z-index: -1;
+
+    >div{
+        grid-area: hidden;
+        nav{
+           
+            // border: 1px solid red;
+            ul{
+                display: flex;
+                justify-content: space-between;
+                li{
+                    a:link, a:visited{
+                        text-decoration: none;
+                        color: $white;
+                        font-size: rem-calc(30);
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+
+        section{
+            margin-top: 100px;
+            ul{
+                display: flex;
+                justify-content: center;
+
+                li{
+                    margin: 0 10px;
+                    a:link, a:visited{
+                        text-decoration: none;
+                        color: #939393;
+                        font-size: rem-calc(20);
+                        transition: 0.025s;
+    
+                        &:hover, &:active{
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

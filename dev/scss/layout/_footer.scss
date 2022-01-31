@@ -1,0 +1,98 @@
+/* =============
+    Footer
+============= */
+footer{
+    background-color: $black;
+    color: $white;
+    padding: 100px 0;
+
+
+    aside{
+        display: flex;
+        align-items: center;
+        span{
+            background-color: red;
+            height: 1px;
+            width: 15px;
+        }   
+
+        h4{
+            margin-left: 10px;
+        }
+    }
+
+    h1{
+        color: $white;
+        font-size: rem-calc(40);
+        font-weight: 300;
+        line-height: rem-calc(50);
+        margin: 30px 0;
+    } 
+
+    #contact-info{
+        >div{
+            display: flex;
+
+            p{
+
+            }
+
+            a:link, a:visited{
+                margin: 0 0 10px 5px;
+                text-decoration: none;
+                color: #939393;
+                div{
+                    width: 0%;
+                    height: 1px;
+                    background-color: $white;
+                }
+
+                &:hover, &:active{
+                    color: $white;
+                    div{
+                        transition: width 0.25s ease-in-out;
+                        width: 100%;
+                    }
+                }
+            }
+        }      
+    }
+
+    aside{
+        margin-top: 20px;
+        ul{
+            display: flex;
+            li{
+                margin-right: 20px;
+
+                a:link, a:visited{
+                    text-decoration: none;
+                    color: #939393;
+                    font-size: rem-calc(20);
+                    transition: 0.025s;
+
+                    &:hover, &:active{
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+#bottom-message{
+    background-color: $black;
+    border-top: 1px solid #939393;
+    padding: 20px;
+    text-align: center;
+    font-size: rem-calc(14);
+
+    p{
+        color: #939393;
+
+        i{
+            color: red;
+        }
+    }
+}
