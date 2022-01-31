@@ -1,0 +1,92 @@
+header {
+    position: fixed;
+    top: 50px;
+    left: 0;
+        nav {
+            ul {
+                li {
+
+                    a {
+                        display: flex;
+                        height: 20px;
+                        width: 100%;
+
+                        text-decoration: none;
+                        color: $white;
+
+
+                        aside {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 10px;
+
+                            section {
+                                position: relative;
+
+                                div {
+                                    
+                                    width: 100px;
+                                    height: 1px;
+                                    background-color: $black;
+                                }
+
+                                .accent {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100px;
+                                    height: 1px;
+                                    background-color: $white;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                // .button-container {
+                //     height: 20px;
+                //     display: flex;
+                //     align-items: center;
+                //     margin-bottom: 10px;
+                //     cursor: pointer;
+
+
+                //     >div {
+                //         position: relative;
+                //         width: 100px;
+                //         height: 1px;
+                //         // background-color: $black;
+                //         // overflow: hidden;
+                //         // margin-left: 50%;
+
+                //         span {
+                //             background-color: $black;
+                //             height: 100%;
+                //             width: 50%;
+                //             display: inline-block;
+                //             margin-left: 50%;
+                //             position: absolute;
+                //             top: 0;
+                //             left: 0;
+                //         }
+
+                //         .accent {
+                //             position: absolute;
+                //             top: 0;
+                //             left: 0;
+                //             background-color: $white;
+                //         }
+
+                //     }
+
+                //     button {
+                //         background-color: transparent;
+                //         border: none;
+                //         color: $white;
+                //         cursor: pointer;
+                //     }
+
+                // }
+            }
+        }
+}
