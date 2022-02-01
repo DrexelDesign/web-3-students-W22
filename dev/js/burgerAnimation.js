@@ -59,7 +59,5 @@ export function burgerActions(){
             burgerBtn.classList.remove("selected");
             isMenuOpen = false;
         }
-
-         
     });
 }

@@ -32,6 +32,8 @@ export function createGallery(){
         li.style.gridArea = "g" + (i + 1);
         // li.style.backgroundImage = "url(" + imageArray[i] + ")";
         li.style.backgroundImage = generateDogImage(i);
+
+        // li.style.backgroundImage = "url(https://loremflickr.com/600/600/dog?random=0)"
         // add the <li> to the <ul> inside the #gallery
         galleryContainer.appendChild(li);
     }

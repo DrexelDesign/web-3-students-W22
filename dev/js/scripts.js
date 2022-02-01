@@ -6,5 +6,4 @@ import {createGallery} from "./galleryContent";
 window.addEventListener('load', function () {
     burgerActions();
     createGallery();
-    
 })

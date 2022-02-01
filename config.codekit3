@@ -1427,6 +1427,189 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/footer\/facebook.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/footer\/facebook.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/footer\/instagram.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/footer\/instagram.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/footer\/twitter.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/footer\/twitter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/header\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/header\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/hero-2\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 247748,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero-2\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 338321,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/history\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 15971,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/history\/history.jpg" : {
+      "ft" : 16384,
+      "iS" : 18964,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history\/history.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/skills\/robot.jpg" : {
+      "ft" : 16384,
+      "iS" : 118148,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/skills\/robot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/skynet\/gallery-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 159219,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/skynet\/gallery-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/skynet\/gallery-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 89774,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/skynet\/gallery-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/skynet\/gallery-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 136768,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/skynet\/gallery-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/skynet\/gallery-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 181356,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/skynet\/gallery-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/skynet\/gallery-5.jpg" : {
+      "ft" : 16384,
+      "iS" : 43962,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/skynet\/gallery-5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/skynet\/gallery-6.jpg" : {
+      "ft" : 16384,
+      "iS" : 136159,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/skynet\/gallery-6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1454,44 +1637,12 @@
       "oAP" : "\/design\/structure-tags.sketch",
       "oF" : 0
     },
-    "\/dev\/content\/bottomMessage.kit" : {
+    "\/dev\/content\/content.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/bottomMessage.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/gallery.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/gallery.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/hello.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hello.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/hiddenMenu.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hiddenMenu.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/main.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/main.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/content.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -1534,46 +1685,35 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
-    "\/dev\/js\/burgerAnimation.js" : {
+    "\/dev\/js\/contentSections.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/burgerAnimation-min.js",
+      "oAP" : "\/dev\/js\/contentSections-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/galleryContent.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/galleryContent-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/mobileResizing.js" : {
+    "\/dev\/js\/navigation.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/mobileResizing-min.js",
+      "oAP" : "\/dev\/js\/navigation-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/pageResize.js" : {
+    "\/dev\/js\/pageScroll.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/pageResize-min.js",
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/pageScroll-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1586,6 +1726,17 @@
       "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
       "oF" : 2,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/textOnScroll.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/textOnScroll-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -1739,7 +1890,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_gallery.scss" : {
+    "\/dev\/scss\/sections\/_content.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1748,52 +1899,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_gallery.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_hello.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hello.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_hidden.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hidden.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_main.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_main.css",
+      "oAP" : "\/dev\/scss\/sections\/_content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1853,7 +1959,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 661996541.70213306,
-    "displayValue" : "web-3-Josh-W22",
+    "displayValue" : "web-3-students-W22",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-forest",
     "iconImageWasSetByUser" : 0
