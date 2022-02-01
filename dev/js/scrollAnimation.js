@@ -2,32 +2,41 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-export function slideInRight(triggerElement,animationElement ){
+gsap.set(".yellow-bar", {transformOrigin: "left center"});
+
+export function skillsTrigger() {
     const tl = new gsap.timeline();
-    tl.from(animationElement,{
-        duration:1,
-        x: -500,
-        alpha:0,
-        scrollTrigger:{
-            trigger: triggerElement,
+
+    tl.from(".yellow-bar", {
+        duration: 1,
+        scrollTrigger: {
+            trigger: "#skills-content",
+            start: "top 60%",
+            end: "bottom 80%",
             toggleActions: "restart none resume none",
-            // markers: true
             scrub: true
-        }
+            // markers: true
+        },
+        scaleX: 0,
+        stagger: 0.25
     });
 }
 
-export function slideInLeft(triggerElement,animationElement ){
+export function galleryAni(){
     const tl = new gsap.timeline();
-    tl.from(animationElement,{
-        duration:1,
-        x: 500,
-        alpha:0,
+
+    tl.from("#skynet li",{
+        duration: 1,
         scrollTrigger:{
-            trigger: triggerElement,
+            trigger:"#skynet",
+            start: "top 60%",
+            end: "bottom 90%",
             toggleActions: "restart none resume none",
-            // markers: true
             scrub: true
-        }
+            // markers: true
+        },
+        backgroundPosition: "center 300px",
+        stagger:0.25
+
     });
 }

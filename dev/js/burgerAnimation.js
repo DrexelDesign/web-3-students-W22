@@ -18,7 +18,6 @@ middleTL.to(".burger-lines:nth-child(2)",{duration:0.25, scale:0})
 .to("#outline",{duration:0.25, drawSVG:"100%", stroke:"#f91f1f"});
 
 export const burgerTL = new gsap.timeline({paused:true});
-
 burgerTL.add(topTL,"burger")
     .add(bottomTL,"burger")
     .add(middleTL,"burger")

@@ -7,8 +7,6 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 5000;
-    z-index: 1000;
 
     >div {
         display: grid;
@@ -45,24 +43,23 @@ header {
                 z-index: 1000;
                 height: 40px;
                 width: 40px;
-                // border: 1px solid red;
-                // background-color: #fff;
             }
         }
 
         #nav-container {
             background-color: $charcoal;
-            grid-area: nav;
             position: fixed;
             width: 100vw;
             height: 100vh;
-            z-index: 500;
+            grid-area: nav;
+            z-index: 900;
+
 
             @include lg {
                 background-color: $white;
-                position: static;
                 height: 100%;
                 width: 100%;
+                position: static;
             }
         }
     }

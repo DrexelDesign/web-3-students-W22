@@ -1,50 +1,68 @@
-import { slideInRight, slideInLeft} from "./scrollAnimation.js";
-import { burgerTL } from "./burgerAnimation";
+import {skillsTrigger,galleryAni} from "./scrollAnimation.js";
+import {burgerTL} from "./burgerAnimation.js";
 import {menuAnimation} from "./mobileMenu.js"
 import {scrollPage} from "./pageScroll"
 import { displayWindowSize } from "./mobileResizing"
 
-var burgerButton = document.querySelector("#burger");
 
-let canISeeMenu = false;
+let burgerClicked = false;
+let burgerButton = document.querySelector("#burger");
 
-// let bigNumber = 10;
-// let smallNumber = 5;
+window.addEventListener('load', function () {
+    skillsTrigger();
+    galleryAni();
+})
 
-// if(bigNumber == smallNumber){
-
-// }
-
-// if(bigNumber === smallNumber){
-
-// }
-
-
-
-function openCloseMenu(){
-    if(canISeeMenu === false){
-        // can't see menu... play timeline of burger into X
-        burgerTL.play();
-        menuAnimation.play();
-        canISeeMenu = true;
-    }else{
-        // can see menu.. play X back into burger
-        burgerTL.reverse();
-        menuAnimation.reverse();
-        canISeeMenu = false;
-    }
-}
+// burgerButton.addEventListener("click", () => {
+//     if(burgerClicked === false){
+//         burgerTL.play();
+//         menuAnimation.play();
+//         burgerClicked = true;
+//     }else{
+//         burgerTL.reverse();
+//         menuAnimation.reverse();
+//         burgerClicked = false;
+//     }
+// });
 
 burgerButton.addEventListener("click", openCloseMenu);
 
 let navButtons = document.querySelectorAll(".nav-btns");
 
-for (const button of navButtons){
+// for(var i = 0; i < navButtons.length; i++){
+//     navButtons[i].addEventListener("click", openCloseMenu);
+// }
+
+for (const button of navButtons) {
     button.addEventListener("click", checkScrolling);
-    button.addEventListener("click", openCloseMenu);
 }
 
+// var index = [].indexOf.call(navButtons);
+// for(const test of navButtons){
+//     test.addEventListener("click", testIndex);
+// }
 
+// function testIndex(e){
+//     // var index = [...this.children].indexOf(e.target);
+//     // console.log([].indexOf.call(navButtons, e.target));
+
+//     const indexValue = [].indexOf.call(navButtons, e.target)
+//     // scrollPage(indexValue);
+//     // console.log(index);
+// }
+
+// console.log(navButtons);
+function openCloseMenu() {
+    if (burgerClicked === false) {
+        burgerTL.play();
+        menuAnimation.play();
+        burgerClicked = true;
+    } else {
+        burgerTL.reverse();
+        menuAnimation.reverse();
+        burgerClicked = false;
+    }
+}
 
 function checkScrolling(e) {
     // check to see which button was clicked
@@ -54,87 +72,11 @@ function checkScrolling(e) {
     }
 }
 
-
-
-
-
-
-// for(let i = 0; i < navButtons.length; i++){
-//     navButtons[i].addEventListener("click", openCloseMenu);
-// }
-
-
-
-// console.log(navButtons);
-
-
-
-
-
-// burgerButton.addEventListener("click", () =>{
-    // console.log("burger clicked");
-
-    // = || assignment || setting object 1 (equal) = object 2
-    // == || // slip over (this is a loose comparison)
-    // === || is a direct comparison || does object 1 equal ( exact same thing ) as object 2
-
-    // if(canISeeMenu === false){
-    //     // can't see menu... play timeline of burger into X
-    //     burgerTL.play();
-    //     menuAnimation.play();
-    //     canISeeMenu = true;
-    // }else{
-    //     // can see menu.. play X back into burger
-    //     burgerTL.reverse();
-    //     menuAnimation.reverse();
-    //     canISeeMenu = false;
-    // }
-
-    // if(!canISeeMenu){
-    //     // can't see menu... play timeline of burger into X
-    //     burgerTL.play();
-    //     canISeeMenu = true;
-    // }else{
-    //     // can see menu.. play X back into burger
-    //     burgerTL.reverse();
-    //     canISeeMenu = false;
-    // }
-
-// });
-
-
-
-
-
-
-window.addEventListener('load', function(){
-
-    // // index values               0                   1                   2
-    let triggerElements = ["#history-middle","#history-first", "#skills-content"];
-    // index values                  0                   1                   2
-    let animationElements =["#history-middle p","#robot-profile", "#skills-content h1"];
-    let buttonIndex = 0;
-
-    for( const element of triggerElements){
-        // console.log(buttonIndex);
-        // console.log(element + " is an element");
-        
-        if(element === "#history-first"){
-            // console.log("The index is " + buttonIndex);
-        }
-        buttonIndex ++;
-    }
-
-    for(let i = 0; i < triggerElements.length; i++){
-        // console.log(triggerElements[i]);
-        if(triggerElements[i] === "#skills-content" || triggerElements[i] === "#history-middle"){
-            // console.log(i + " is the index value of triggerElements");
-        }
-        if( i === triggerElements.length/2){
-            slideInLeft(triggerElements[i], animationElements[i]);
-        }else{
-            slideInRight(triggerElements[i], animationElements[i]);
-        }
+//listen to window resize for the menu being down and if it is force it back up
+window.addEventListener("resize", function(){
+    if(burgerClicked === true){
+        console.log("fire");
+        openCloseMenu();
     }
 });
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
      <script src="https://kit.fontawesome.com/66f1583f9f.js" crossorigin="anonymous"></script>
      
     <link rel="stylesheet" href="css/styles.css">
-    <title>Title Goes Here</title>
+    <title>Simple Menu Demo</title>
 </head>
 
 <body>
@@ -22,28 +23,30 @@
             <section id="burger-container">
                 <div id="burger">
                     <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45">
-                        <rect id="top" x="5" y="14" width="35" height="2" rx="1" fill="#000" class="burger-lines" />
-                        <rect id="middle" x="5" y="22" width="35" height="2" rx="1" fill="#000" class="burger-lines" />
-                        <rect id="bottom" x="5" y="30" width="35" height="2" rx="1" fill="#000" class="burger-lines" />
-                        <circle id="outline" cx="22.5" cy="22.5" r="21.5" stroke="#000" stroke-width="2" />
-                    </svg>
+                          <rect id="top" x="5" y="14" width="35" height="2" rx="1" fill="#000" class="burger-lines"/>
+                          <rect id="middle" x="5" y="22" width="35" height="2" rx="1" fill="#000" class="burger-lines"/>
+                          <rect id="bottom" x="5" y="30" width="35" height="2" rx="1" fill="#000" class="burger-lines"/>
+                          <circle id="outline" cx="22.5" cy="22.5" r="21.5" stroke="#000" stroke-width="2"/>
+                      </svg>
                 </div>
             </section>
     
-            <nav id="nav-container" data-nav="main-navigation">
-                <ul>
-                    <!-- <li><a href="#history" class="nav-btns">History</a></li>
-                    <li><a href="#skills" class="nav-btns">Skills</a></li>
-                    <li><a href="#skynet" class="nav-btns">Skynet</a></li> -->
+            <section id="nav-container" data-nav="main-navigation">
+                <nav>
+                    <ul>
+                        <!-- <li><a href="#history" class="nav-btns">History</a></li>
+                        <li><a href="#skills" class="nav-btns">Skills</a></li>
+                        <li><a href="#skynet" class="nav-btns">Skynet</a></li> -->
     
-                    <li><button class="nav-btns">History</button></li>
-                    <li><button class="nav-btns">Skills</button></li>
-                    <li><button class="nav-btns">Skynet</button></li>
-                </ul>
-            </nav>
+                        <li><button class="nav-btns">History</button></li>
+                        <li><button class="nav-btns">Skills</button></li>
+                        <li><button class="nav-btns">Skynet</button></li>
+                    </ul>
+                </nav>
+            </section>
     
             <section id="logo-container">
-                <a href="#hero" class="nav-btns"><img src="img/header/logo.svg" alt="robot logo"></a>
+                <a href="#hero"><img src="img/header/logo.svg" alt="robot logo"></a>
             </section>
         </div>
     </header>
@@ -54,13 +57,12 @@
                 <div>
                     <article id="history-first">
                         <div>
-                            <img src="img/history/hero.jpg" alt="robot hero spot" id="robot-profile">
+                            <img src="img/history/hero.jpg" alt="robot hero spot">
                             <h1><span>Early History of</span> Machine Learning</h1>
                             <h4>by Professor Karen Pine</h4>
                         </div>
                         
                     </article>
-                    
                     <article id="history-middle">
                         <div>
                             <p>The first case of neural networks was in 1943, when neurophysiologist Warren McCulloch and mathematician Walter Pitts wrote a paper about neurons, and how they work. They decided to create a model of this using an electrical circuit, and therefore the neural network was born.
@@ -82,7 +84,7 @@
                     <div>
                         <aside></aside>
                     
-                        <section id="skills-content" class="trigger-content">
+                        <section id="skills-content">
                             <div>
                                 <h1>Robot Skills </h1>
                                 <p>To be effective as both specialists and generalists — as well as being both practical and investigative — roboticists need a good set of supporting skills. In this list we've taken 25 career skills and grouped them into 10 essential skills for roboticists.</p>
@@ -94,7 +96,7 @@
                                         </section>
                 
                                         <section class="bottom">
-                                            <div class="yellow-bar trigger-content"></div>
+                                            <div class="yellow-bar" id="test"></div>
                                         </section>
                                     </li>
                 
@@ -104,7 +106,7 @@
                                             <h4>90%</h4>
                                         </section>
                                         <section class="bottom">
-                                            <div class="yellow-bar trigger-content"></div>
+                                            <div class="yellow-bar"></div>
                                         </section>
                                     </li>
                 
@@ -114,7 +116,7 @@
                                             <h4>95%</h4>
                                         </section>
                                         <section class="bottom">
-                                            <div class="yellow-bar trigger-content"></div>
+                                            <div class="yellow-bar"></div>
                                         </section>
                                     </li>
                                 </ul>
@@ -129,14 +131,13 @@
     <section id="skynet">
                             <div>
                                 <ul>
-                                    
-                                    <li id="gallery-1" class="gallery"></li>
-                                    <li id="gallery-2" class="gallery"></li>
-                                    <li id="gallery-3" class="gallery"></li> class="gallery"
-                                    <li id="gallery-4" class="gallery"></li>
-                                    <li id="gallery-5" class="gallery"></li>
-                                    <li id="gallery-6" class="gallery"></li> 
-                                    <li id="gallery-7" class="gallery"><h1>Skynet</h1></li>  
+                                    <li id="gallery-1"></li>
+                                    <li id="gallery-2"></li>
+                                    <li id="gallery-3"></li>
+                                    <li id="gallery-4"></li>
+                                    <li id="gallery-5"></li>
+                                    <li id="gallery-6"></li> 
+                                    <li id="gallery-7"><h1>Skynet</h1></li>  
                                 </ul>
                         </div>
                         </section>
@@ -154,5 +155,8 @@
 <script src="js/scripts-min.js"></script>
 
 </body>
+
+
+
 
 </html>
