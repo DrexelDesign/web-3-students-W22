@@ -71,11 +71,16 @@ export function buttonMouseEvents(){
 
     // this is a for loop (for each loop) that loops through the navLinks array defined on line 15
     // for(var i = 0; i < navLinks.length; i++){} = is the same as the for each loop below
+
+    // function() same as =>
     navLinks.forEach((link, i) => {
         /* ------------
             mouse enter
         ------------ */
         // adding event listen to the index item in the navLinks array [0,1,2,3]
+
+
+        // e => same as function(e)
         link.addEventListener("mouseenter", e => {
             // this prevents chrome from auto scrolling to the section id (#portfolio)
             e.preventDefault();
@@ -101,6 +106,31 @@ export function buttonMouseEvents(){
         });
     });
 }
+
+
+
+//index values         0       1       2       3       
+// javsscript array   
+// let newTextArray = [".text",".text",".text",".text"];
+
+// let newTextArray = document.querySelector(".text");
+
+
+// line 120 and 122 are the exact same in terms of what they are doing
+// let sectionArray = document.querySelectorAll("section");
+// console.log(sectionArray.length);
+// let newTextArray = gsap.utils.toArray("nav .text");
+// console.log(newTextArray[1] + " this is newTextArray index value of 1");
+
+
+
+
+
+
+
+
+
+
 
 
     // Click event listener
