@@ -60,17 +60,30 @@ export function buttonClicks(){
 }
 
 
+// let portfolio = document.querySelector("#portfolio");
+// portfolio.addEventListener("mouseenter", e => {
+
+// }
+
+
+// function that gets exported to scripts.js
 export function buttonMouseEvents(){
 
+    // this is a for loop (for each loop) that loops through the navLinks array defined on line 15
+    // for(var i = 0; i < navLinks.length; i++){} = is the same as the for each loop below
     navLinks.forEach((link, i) => {
         /* ------------
             mouse enter
         ------------ */
+        // adding event listen to the index item in the navLinks array [0,1,2,3]
         link.addEventListener("mouseenter", e => {
+            // this prevents chrome from auto scrolling to the section id (#portfolio)
             e.preventDefault();
             //check to see if the link is the current link and if so don't use a mouse enter on it
             if(i != currentLink){
+                // gsap call to textArray to change the text from ""(nothing) to the value of buttonText array using the index from the forEach loop of i
                 gsap.to(textArray[i], {duration: 0.25, scrambleText: buttonText[i], ease: "none"});
+                // gsap call to accentLines array using forEach loop of i to scale X value to 50%
                 gsap.to(accentLines[i], {duration: 0.25, scaleX:0.5, ease: "none"});
             }
         });
