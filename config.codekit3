@@ -223,6 +223,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/content.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -247,6 +255,14 @@
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
+    "\/dev\/global\/nav.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/nav.html",
+      "oF" : 0
+    },
     "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -263,46 +279,13 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
-    "\/dev\/js\/burgerAnimation.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/burgerAnimation-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/mobileMenu.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/mobileMenu-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/dev\/js\/mobileResizing.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/mobileResizing-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/pageScroll.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/pageScroll-min.js",
+      "oAP" : "\/dev\/js\/mobileResizing-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -318,13 +301,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/scrollAnimation.js" : {
+    "\/dev\/js\/slideMenu.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/dev\/js\/scrollAnimation-min.js",
+      "oAP" : "\/dev\/js\/slideMenu-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -474,6 +457,36 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_nav.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_nav.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

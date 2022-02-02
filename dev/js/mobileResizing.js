@@ -1,7 +1,7 @@
 
 import { gsap } from "gsap";
 
-
+// gsap.set("nav",{right:0});
 
 export function displayWindowSize(){
 
