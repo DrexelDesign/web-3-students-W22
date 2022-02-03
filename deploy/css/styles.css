@@ -438,6 +438,7 @@ nav ul .nav-container .nav-content {
 nav ul .nav-container .nav-content aside {
   width: 50px;
   height: 100%;
+  cursor: pointer;
 }
 nav ul .nav-container .nav-content .nav-rightSide {
   width: 0;

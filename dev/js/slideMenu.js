@@ -1,6 +1,4 @@
-import { gsap } from "gsap";
-
-gsap.set("nav",{right:0});
+// import { gsap } from "gsap";
 
 let rightSide = document.querySelectorAll(".nav-container .nav-rightSide");
 let buttons = document.querySelectorAll(".nav-container aside");
