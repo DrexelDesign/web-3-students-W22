@@ -385,6 +385,7 @@ p {
 ============= */
 button {
   border: none;
+  background-color: transparent;
 }
 
 /* =============
@@ -408,58 +409,6 @@ textarea {
 /* =============
     Navigation
 ============= */
-nav {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media (min-width: 1024px) {
-  nav {
-    justify-content: flex-end;
-  }
-}
-@media (min-width: 1024px) {
-  nav ul {
-    display: flex;
-    justify-content: flex-end;
-  }
-}
-nav ul li {
-  margin-bottom: 20px;
-}
-@media (min-width: 1024px) {
-  nav ul li {
-    align-items: center;
-    border-right: 2px solid #222222;
-    display: flex;
-    margin-bottom: 0px;
-  }
-}
-nav ul li button {
-  background-color: transparent;
-  color: #fff;
-  font-family: "Comfortaa", cursive;
-  font-size: 1.875rem;
-  text-decoration: none;
-  transition: 0.25s;
-  cursor: pointer;
-  color: #fff;
-}
-@media (min-width: 1024px) {
-  nav ul li button {
-    color: #000;
-    font-size: 1.25rem;
-  }
-}
-nav ul li button:hover {
-  color: #F8C832;
-}
-nav ul li:last-child {
-  border: none;
-}
-
 /* =============
     Header
 ============= */
@@ -475,40 +424,21 @@ nav ul li:last-child {
 
 nav {
   height: 100vh;
-  position: fixed;
-  top: 0;
-  right: 0;
-  border: 1px solid red;
-  width: 100%;
 }
 nav ul {
   height: 100%;
   display: flex;
 }
 nav ul .nav-container .nav-content {
-  display: flex;
   height: 100%;
 }
 nav ul .nav-container .nav-content aside {
   width: 50px;
   height: 100%;
-  flex-grow: 1;
-}
-nav ul .nav-container .nav-content aside button {
-  color: #fff;
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-nav ul .nav-container .nav-content aside button h4 {
-  position: absolute;
-  transform: rotate(90deg);
-  width: 100px;
-  left: -25px;
 }
 nav ul .nav-container .nav-content .nav-rightSide {
-  width: 100%;
-  flex-grow: 6;
+  width: 0;
+  transition: 0.25s;
 }
 nav ul #button-1 {
   background-color: coral;
@@ -516,11 +446,10 @@ nav ul #button-1 {
 nav ul #button-2 {
   background-color: cadetblue;
 }
-nav ul #button-2 .nav-rightSide {
-  flex-grow: 6;
-  border: 1px solid red;
-  width: 50vw;
-}
 nav ul #button-3 {
   background-color: beige;
+}
+
+.active {
+  width: 85vw !important;
 }

@@ -1,11 +1,11 @@
 nav{
     height: 100vh;
-    position: fixed;
+    // position: fixed;
     // width: 150px;
-    top:0;
-    right:0;
-    border: 1px solid red;
-    width: 100%;
+    // top:0;
+    // right:0;
+    // border: 1px solid red;
+    // width: 100%;
     ul{
         height: 100%;
         display: flex;
@@ -16,7 +16,6 @@ nav{
         // overflow: hidden;
 
         .nav-container{
-            // height: 100%;
             // width: 100vw;
             // position: absolute;
             // top:0;
@@ -24,60 +23,42 @@ nav{
            
             
             .nav-content{
-                display: flex;
-                // flex-flow: row wrap;
-                // width: 100%;
+                // display: flex;
                 height: 100%;
 
                 aside{
                     width: 50px;
                     height: 100%;
-                    flex-grow: 1;
-
-                    button{
-                        color: $white;
-                        // border: 1px solid black;
-                        width: 100%;
-                        height: 100%;
-                        position: relative;
-                        
-                        h4{
-                            position: absolute;
-                            transform: rotate(90deg);
-                            // border: 1px solid red;
-                            width: 100px;
-                            left:-25px;
-                        }
-                    }
+                    // border: 1px solid blue;
                 }
 
                 .nav-rightSide{
-                   
-                    width: 100%;
-                    flex-grow: 6;
-                    // display: flex;
-                    // align-items: center;
-                    // justify-content: center;
+                    width: 0;
+                    transition: 0.25s;
                 }
             }
         }
 
         #button-1{
             background-color: coral;
+
+            .nav-rightSide{
+                // border: 1px solid $black;
+                // width: 80vw;
+            }
         }
 
         #button-2{
             background-color: cadetblue;
-
-            .nav-rightSide{
-                flex-grow: 6;
-                border: 1px solid red;
-                width: 50vw;
-            }
         }
 
         #button-3{
             background-color: beige;
         }
     }
+}
+
+.active{
+    width: 85vw !important;
+    // transform: 1s;
 }
