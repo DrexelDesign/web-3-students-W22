@@ -441,8 +441,10 @@ nav ul .nav-container .nav-content aside {
   cursor: pointer;
 }
 nav ul .nav-container .nav-content .nav-rightSide {
-  width: 0;
+  width: 1px;
+  height: 100%;
   transition: 0.25s;
+  border: 1px solid red;
 }
 nav ul #button-1 {
   background-color: coral;
@@ -456,4 +458,7 @@ nav ul #button-3 {
 
 .active {
   width: 85vw !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
