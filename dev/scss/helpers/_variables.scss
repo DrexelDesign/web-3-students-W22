@@ -23,3 +23,13 @@ $yellow: #F8C832;
 $charcoal: #222222;
 
 // $grey: rgba(0,0,0,0.9);
+
+:root {
+  --base:              #f7392b;
+  --bg-blend:          multiply;
+  --blur:              0px;
+  --fg-blend:          lighten;
+  --foreground:        #16006f;
+  --opacity:           1;
+  --spacing:           1%;
+}

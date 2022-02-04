@@ -10,6 +10,16 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --base: #f7392b;
+  --bg-blend: multiply;
+  --blur: 0px;
+  --fg-blend: lighten;
+  --foreground: #16006f;
+  --opacity: 1;
+  --spacing: 1%;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -453,6 +463,14 @@ textarea {
 #nav-container > div nav ul li:nth-child(3) div {
   height: 150px;
   background-image: url("../img/c3.webp");
+}
+
+.img-wrapper {
+  background-color: var(--base);
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .img-wrapper::before {
