@@ -1,76 +1,83 @@
 /* =============
     Navigation
 ============= */
-nav {
-    // border: 1px solid red;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#nav-container{
 
-    @include lg {
-        justify-content: flex-end;
-    }
 
-    ul {
-        @include lg {
-            display: flex;
-            justify-content: flex-end;
-        }
+    display: grid;
+    grid-template-columns: auto 80vw auto;
+    grid-template-areas: ". container .";
 
-        li {
-            margin-bottom: 20px;
-            // text-align: right;
+    >div{
+        grid-area: container;
 
-            @include lg {
-                align-items: center;
-                border-right: 2px solid $charcoal;
-                display: flex;
-                margin-bottom: 0px;
-            }
+        nav{
 
-           button {
-               background-color: transparent;
-                color: $white;
-                font-family: 'Comfortaa', cursive;
-                font-size: rem-calc(30);
-                text-decoration: none;
-                transition: 0.25s;
-                cursor: pointer;
-                color: $white;
+            ul{
 
-                @include lg {
-                    color: $black;
-                    font-size: rem-calc(20);
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                height: 100vh;
+                gap: 24px;
+                
+                li{
+                    // border: 1px solid red;
+                    background-color: coral;
+                    display: flex;
+                    align-items: flex-end;
+                    width: 100%;
+                    
+
+                    section{
+                        width: 100%;
+                        padding-bottom: 10vh;
+                        h1{
+                            margin-bottom: 20px;
+                            color: $white;
+                        }
+                        div{
+                            width: 100%;
+                            height: 400px;
+                            background-size: cover;
+                            background-position: top;
+                            background-image: url("../img/c1.jpg");
+                        }
+                    }
+
+                    &:nth-child(2){
+                        background-color: darkslategray;
+                        div{
+                            height: 200px;
+                            background-image: url("../img/c2.webp");
+                          
+                        }
+                        
+                    }
+
+                    &:nth-child(3){
+                        background-color: olive;
+                        div{
+                            height: 150px;
+                            background-image: url("../img/c3.webp");
+                        }
+                    }
                 }
-
-                &:hover{
-                    color: $yellow;
-                }
             }
-
-            // a:link,
-            // a:visited {
-            //     color: $white;
-            //     font-family: 'Comfortaa', cursive;
-            //     font-size: rem-calc(30);
-            //     // padding: 0 20px;
-            //     text-decoration: none;
-            //     transition: 0.25s;
-            //     @include lg {
-            //         color: $black;
-            //     }
-
-            //     &:hover,
-            //     &:active {
-            //         color: $yellow;
-            //     }
-            // }
-        }
-
-        li:last-child {
-            border: none;
         }
     }
 }
+
+
+.img-wrapper::before {
+    background-color:    var(--foreground);
+    bottom:              0;
+    content:             '';
+    height:              100%;
+    left:                0;
+    mix-blend-mode:      var(--fg-blend);
+    position:            absolute;
+    right:               0;
+    top:                 0;
+    width:               100%;
+    z-index:             1;
+  }
