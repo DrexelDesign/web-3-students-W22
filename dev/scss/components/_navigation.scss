@@ -31,9 +31,13 @@
                             margin-bottom: 20px;
                             color: $white;
                         }
+
+                        img{
+                            width: 100%;
+                        }
                         div{
                             width: 100%;
-                            height: 400px;
+                            height: 50vh;
                             background-size: cover;
                             background-position: top;
                             background-image: url("../img/c1.jpg");
@@ -43,7 +47,7 @@
                     &:nth-child(2){
                         background-color: darkslategray;
                         div{
-                            height: 200px;
+                            height: 30vh;
                             background-image: url("../img/c2.webp");
                         }
                     }
@@ -51,7 +55,7 @@
                     &:nth-child(3){
                         background-color: olive;
                         div{
-                            height: 150px;
+                            height: 20vh;
                             background-image: url("../img/c3.webp");
                         }
                     }
