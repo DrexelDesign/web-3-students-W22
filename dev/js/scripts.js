@@ -6,8 +6,8 @@ buttons.forEach((button, i) => {
         // console.log(i);
         var top = buttons[i].children[0].children[0];
         var bottom = buttons[i].children[0].children[1];
-        var tl = new gsap.timeline({paused:true});
 
+        var tl = new gsap.timeline({paused:true});
         tl.to(top,{duration:1, y:-15},"same")
         .to(bottom,{duration:1, y:-15}, "same");
 
