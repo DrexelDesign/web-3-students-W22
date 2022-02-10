@@ -2,31 +2,24 @@ import { gsap } from "gsap";
 
 var buttons = document.querySelectorAll("li");
 
-
-
-function playTimeline(top, bottom){
-    var tl = new gsap.timeline({paused:true});
-    tl.from(top,{duration:1, y:15,onComplete: function() { this.time(0).kill(); }},"same");
-    tl.from(bottom,{duration:1, y:15}, "same");
-    tl.play();    
-}
-
-
 buttons.forEach((button, i) => {
-        console.log(i);
+        // console.log(i);
+        var top = buttons[i].children[0].children[0];
+        var bottom = buttons[i].children[0].children[1];
+        var tl = new gsap.timeline({paused:true});
+
+        tl.to(top,{duration:1, y:-15},"same")
+        .to(bottom,{duration:1, y:-15}, "same");
 
         button.addEventListener("mouseenter", () =>{
             console.log("enter");
-            // console.log(button.children[0].children[0]);
-            // tl.restart();
-            playTimeline(buttons[i].children[0].children[0], button.children[0].children[1]);
+            tl.restart();
+            tl.play();
         })
-
 
         button.addEventListener("mouseleave", () =>{
             console.log("leave");
-            // console.log(button.children[0].children[0]);
-            // tl.restart();
-            playTimeline(buttons[i].children[0].children[0], button.children[0].children[1])
+            tl.restart();
+            tl.play();
         })
 });

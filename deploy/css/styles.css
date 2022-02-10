@@ -422,6 +422,7 @@ textarea {
   border: 1px solid red;
   display: block;
   height: 15px;
+  overflow: hidden;
   margin-bottom: 30px;
 }
 #container > div nav ul li a {
