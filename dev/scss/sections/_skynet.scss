@@ -49,30 +49,13 @@
             li {
                 background-position: center;
                 background-size: cover;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                height: 40vh;
                 margin: 0;
 
-                @include md{
-                    height: 50vh;
-                }
-
-                @include lg{
-                    height: 60vh;
-                }
-=======
->>>>>>> parent of 4e891b7 (working on class demo)
-=======
->>>>>>> parent of 4e891b7 (working on class demo)
                 a:link,a:visited{
                     height: 100%;
                     width: 100%;
                     display: inline-block;
                 }
-=======
->>>>>>> parent of 16a718e (demo complete)
             }
     
             #gallery-1 {
@@ -121,7 +104,7 @@
                 display: flex;
                 font-family: 'Pacifico', cursive;
                 grid-area: gallery-7;
-                justify-content: center;
+               justify-content: center;
     
                 h1 {
                     font-size: rem-calc(43);

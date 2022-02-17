@@ -867,42 +867,17 @@ footer > div ul li a:visited:active {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-#skynet > div .carousel .carousel__slide a:link, #skynet > div .carousel .carousel__slide a:visited {
-=======
-=======
->>>>>>> parent of 4e891b7 (working on class demo)
 #skynet > div ul li {
   background-position: center;
   background-size: cover;
+  margin: 0;
 }
 #skynet > div ul li a:link, #skynet > div ul li a:visited {
-<<<<<<< HEAD
->>>>>>> parent of 4e891b7 (working on class demo)
-=======
->>>>>>> parent of 4e891b7 (working on class demo)
   height: 100%;
   width: 100%;
   display: inline-block;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-#skynet > div .carousel #gallery-1 {
-=======
-#skynet > div ul li {
-  background-position: center;
-  background-size: cover;
-}
 #skynet > div ul #gallery-1 {
->>>>>>> parent of 16a718e (demo complete)
-=======
-#skynet > div ul #gallery-1 {
->>>>>>> parent of 4e891b7 (working on class demo)
-=======
-#skynet > div ul #gallery-1 {
->>>>>>> parent of 4e891b7 (working on class demo)
   background-image: url("../img/skynet/gallery-1.jpg");
   grid-area: gallery-1;
 }
