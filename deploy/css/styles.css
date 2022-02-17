@@ -847,86 +847,67 @@ footer > div ul li a:visited:active {
 #skynet > div {
   grid-area: skynet;
 }
-#skynet > div ul {
-  display: grid;
-  grid-area: section-5;
-  grid-gap: 20px;
-  grid-template-areas: "gallery-7" "gallery-1" "gallery-1" "gallery-6" "gallery-3";
-  grid-template-rows: repeat(5, 235px);
+#skynet > div .carousel {
+  color: #170724;
+  --carousel-button-bg: #fff;
+  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  --carousel-button-svg-width: 20px;
+  --carousel-button-svg-height: 20px;
+  --carousel-button-svg-stroke-width: 2.5;
+}
+#skynet > div .carousel .carousel__slide {
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  margin: 0;
 }
 @media (min-width: 768px) {
-  #skynet > div ul {
-    grid-template-areas: "gallery-1 gallery-3" "gallery-1 gallery-7" "gallery-5 gallery-6";
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 277px);
+  #skynet > div .carousel .carousel__slide {
+    height: 50vh;
   }
 }
 @media (min-width: 1024px) {
-  #skynet > div ul {
-    grid-template-areas: "gallery-1 gallery-5 gallery-2" "gallery-1 gallery-7 gallery-4" "gallery-6 gallery-3 gallery-4";
-    grid-template-columns: repeat(3, 1fr);
+  #skynet > div .carousel .carousel__slide {
+    height: 60vh;
   }
 }
-#skynet > div ul li {
-  background-position: center;
-  background-size: cover;
-}
-#skynet > div ul li a:link, #skynet > div ul li a:visited {
+#skynet > div .carousel .carousel__slide a:link, #skynet > div .carousel .carousel__slide a:visited {
   height: 100%;
   width: 100%;
   display: inline-block;
 }
-#skynet > div ul #gallery-1 {
+#skynet > div .carousel #gallery-1 {
   background-image: url("../img/skynet/gallery-1.jpg");
-  grid-area: gallery-1;
 }
-#skynet > div ul #gallery-2 {
+#skynet > div .carousel #gallery-2 {
   background-image: url("../img/skynet/gallery-2.jpg");
 }
-@media (min-width: 1024px) {
-  #skynet > div ul #gallery-2 {
-    grid-area: gallery-2;
-  }
-}
-#skynet > div ul #gallery-3 {
+#skynet > div .carousel #gallery-3 {
   background-image: url("../img/skynet/gallery-3.jpg");
   background-position: center top;
-  grid-area: gallery-3;
 }
-#skynet > div ul #gallery-4 {
+#skynet > div .carousel #gallery-4 {
   background-image: url("../img/skynet/gallery-4.jpg");
 }
-@media (min-width: 1024px) {
-  #skynet > div ul #gallery-4 {
-    grid-area: gallery-4;
-  }
-}
-#skynet > div ul #gallery-5 {
+#skynet > div .carousel #gallery-5 {
   background-image: url("../img/skynet/gallery-5.jpg");
 }
-@media (min-width: 768px) {
-  #skynet > div ul #gallery-5 {
-    grid-area: gallery-5;
-  }
-}
-#skynet > div ul #gallery-6 {
+#skynet > div .carousel #gallery-6 {
   background-image: url("../img/skynet/gallery-6.jpg");
-  grid-area: gallery-6;
 }
-#skynet > div ul #gallery-7 {
+#skynet > div .carousel #gallery-7 {
   align-items: center;
   color: #F8C832;
   display: flex;
   font-family: "Pacifico", cursive;
-  grid-area: gallery-7;
   justify-content: center;
 }
-#skynet > div ul #gallery-7 h1 {
+#skynet > div .carousel #gallery-7 h1 {
   font-size: 2.6875rem;
   font-weight: 400;
 }
 @media (min-width: 768px) {
-  #skynet > div ul #gallery-7 h1 {
+  #skynet > div .carousel #gallery-7 h1 {
     font-size: 2.875rem;
   }
 }

@@ -20,35 +20,64 @@
     >div{
         grid-area: skynet;
 
-        ul {
-            display: grid;
-            grid-area: section-5;
-            grid-gap: 20px;
-            grid-template-areas: "gallery-7"
-                "gallery-1"
-                "gallery-1"
-                "gallery-6"
-                "gallery-3";
-            grid-template-rows: repeat(5, 235px);
-    
-            @include md {
-                grid-template-areas: "gallery-1 gallery-3"
-                    "gallery-1 gallery-7"
-                    "gallery-5 gallery-6";
-                grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: repeat(3, 277px);
-            }
-    
-            @include lg {
-                grid-template-areas: "gallery-1 gallery-5 gallery-2"
-                    "gallery-1 gallery-7 gallery-4"
-                    "gallery-6 gallery-3 gallery-4";
-                grid-template-columns: repeat(3, 1fr);
-            }
-    
-            li {
+
+        // .carousel {
+        //     color: #170724;
+
+        //     --carousel-button-bg: #fff;
+        //     --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+        //     --carousel-button-svg-width: 20px;
+        //     --carousel-button-svg-height: 20px;
+        //     --carousel-button-svg-stroke-width: 2.5;
+
+        //     .carousel__slide {
+        //         display: flex;
+        //         align-items: center;
+        //         justify-content: center;
+
+        //         overflow: hidden;
+
+        //         width: 80%;
+        //         height: 50vh;
+        //         margin-right: 6px;
+
+        //         // background-color: #eee;
+        //         border-radius: 6px;
+
+        //         img {
+        //             width: 100%;
+        //         //    border: 1px solid red;
+        //         }
+        //     }
+        // }
+
+
+
+
+        .carousel {
+            color: #170724;
+
+            --carousel-button-bg: #fff;
+            --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+            --carousel-button-svg-width: 20px;
+            --carousel-button-svg-height: 20px;
+            --carousel-button-svg-stroke-width: 2.5;
+
+            .carousel__slide {
                 background-position: center;
                 background-size: cover;
+                height: 40vh;
+                margin: 0;
+
+                @include md{
+                    height: 50vh;
+                }
+
+                @include lg{
+                    height: 60vh;
+                }
                 a:link,a:visited{
                     height: 100%;
                     width: 100%;
@@ -58,42 +87,27 @@
     
             #gallery-1 {
                 background-image: url("../img/skynet/gallery-1.jpg");
-                grid-area: gallery-1;
             }
     
             #gallery-2 {
                 background-image: url("../img/skynet/gallery-2.jpg");
-    
-                @include lg {
-                    grid-area: gallery-2;
-                }
             }
     
             #gallery-3 {
                 background-image: url("../img/skynet/gallery-3.jpg");
                 background-position: center top;
-                grid-area: gallery-3;
             }
     
             #gallery-4 {
                 background-image: url("../img/skynet/gallery-4.jpg");
-    
-                @include lg {
-                    grid-area: gallery-4;
-                }
             }
     
             #gallery-5 {
                 background-image: url("../img/skynet/gallery-5.jpg");
-    
-                @include md {
-                    grid-area: gallery-5;
-                }
             }
     
             #gallery-6 {
                 background-image: url("../img/skynet/gallery-6.jpg");
-                grid-area: gallery-6;
             }
     
             #gallery-7 {
@@ -101,7 +115,6 @@
                 color: $yellow;
                 display: flex;
                 font-family: 'Pacifico', cursive;
-                grid-area: gallery-7;
                 justify-content: center;
     
                 h1 {
