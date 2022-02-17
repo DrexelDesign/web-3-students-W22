@@ -849,6 +849,7 @@ footer > div ul li a:visited:active {
 }
 #skynet > div .carousel {
   color: #170724;
+  color: red;
   --carousel-button-bg: #fff;
   --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
   --carousel-button-svg-width: 20px;
@@ -859,7 +860,7 @@ footer > div ul li a:visited:active {
   background-position: center;
   background-size: cover;
   height: 40vh;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 @media (min-width: 768px) {
   #skynet > div .carousel .carousel__slide {
