@@ -8,7 +8,6 @@
   "repository": {},
   "private": true,
   "dependencies": {
-    "@fancyapps/ui": "^4.0.25",
     "gsap": "^3.9.1"
   }
 }
