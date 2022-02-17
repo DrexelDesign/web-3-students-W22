@@ -9,7 +9,10 @@ import { slideInRight, slideInLeft} from "./scrollAnimation.js"
 // final
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 4e891b7 (working on class demo)
 window.addEventListener('load', function(){
 
 

@@ -331,6 +331,7 @@
       "tS" : 0
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "\/dev\/js\/scrollAnimation.js" : {
 <<<<<<< HEAD
       "bF" : 0,
@@ -350,6 +351,8 @@
       "sC" : 3,
       "tS" : 0
     },
+=======
+>>>>>>> parent of 4e891b7 (working on class demo)
 =======
 >>>>>>> parent of 4e891b7 (working on class demo)
     "\/dev\/scss\/base\/_base.scss" : {
