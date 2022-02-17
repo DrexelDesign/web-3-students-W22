@@ -49,6 +49,11 @@
             li {
                 background-position: center;
                 background-size: cover;
+                a:link,a:visited{
+                    height: 100%;
+                    width: 100%;
+                    display: inline-block;
+                }
             }
     
             #gallery-1 {

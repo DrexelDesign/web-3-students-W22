@@ -10,6 +10,10 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --fancybox-bg: rgba(246, 104, 9, 0.79);
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -870,6 +874,11 @@ footer > div ul li a:visited:active {
 #skynet > div ul li {
   background-position: center;
   background-size: cover;
+}
+#skynet > div ul li a:link, #skynet > div ul li a:visited {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
 }
 #skynet > div ul #gallery-1 {
   background-image: url("../img/skynet/gallery-1.jpg");
