@@ -1,0 +1,76 @@
+#content {
+    background-color: $teal;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    
+    #select-container {
+        background-color: $white;
+        left: 0;
+        overflow: hidden;
+        padding: 20px;
+        position: fixed;
+        top: 40%;
+        width: 200px;
+        
+        #select-top {
+            
+            div {
+                display: flex;
+                justify-content: center;
+                
+                button {
+                    cursor: pointer;
+                    margin: 10px 5px;
+                    padding: 10px;
+                }
+
+                .selected {
+                    background-color: coral;
+                    color: $white;
+                }
+            }
+        }
+
+        #select-bottom {
+            height: 40px;
+            overflow: hidden;
+            position: relative;
+            
+            ul {
+                background-color: $white;
+                display: flex;
+                height: 100%;
+                justify-content: space-between;
+                width: 100%;
+                
+                li {
+                    cursor: pointer;
+                    height: 30px;
+                    margin-bottom: 10px;
+                    width: 30px;
+                }
+            }
+
+            #colors {
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                z-index: 100;
+            }
+
+            #patterns {
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                
+                li {
+                    background-color: yellow;
+                }
+            }
+        }
+    }
+}
