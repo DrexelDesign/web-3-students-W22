@@ -10,8 +10,6 @@ import { slideInRight, slideInLeft} from "./scrollAnimation.js"
 
 
 
-// import { Fancybox, Carousel, Panzoom } from "@fancyapps/ui";
-
 window.addEventListener('load', function(){
 
 
