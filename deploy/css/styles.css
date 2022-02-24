@@ -971,7 +971,7 @@ footer > div ul li a:visited:active {
 }
 
 .slider {
-  background-color: #ccc;
+  background-color: var(--charcoal);
   bottom: 0;
   cursor: pointer;
   left: 0;
@@ -982,7 +982,7 @@ footer > div ul li a:visited:active {
 }
 
 .slider:before {
-  background-color: #fff;
+  background-color: var(--white);
   bottom: 4px;
   content: "";
   height: 26px;
