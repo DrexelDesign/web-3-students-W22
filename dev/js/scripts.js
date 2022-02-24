@@ -1,5 +1,86 @@
+
+import { gsap } from "gsap";
+
 import { slideInRight, slideInLeft} from "./scrollAnimation.js"
+import {getPrimaryColor} from "./colors"
+
+
+
 window.addEventListener('load', function(){
+
+    // set the primary color from scripts.js
+
+    // var color = setPrimaryColor("#e50606");
+
+    // console.log(primaryColor + " this is primary color");
+
+
+    gsap.to("body",{duration:1, backgroundColor: getPrimaryColor()});
+
+
+    console.log(getPrimaryColor() + " this is what was returned to me");
+
+    // console.log(getPrimaryColor() + " this is primary color");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // var redColor = "red";
+
+    // redColor = "hello";
+
+    // console.log(redColor + " this is red");
+    // function getPrimaryColor(){
+
+    // }
+
+    // function setPrimaryColor(){
+        
+    // }
+
+    // var redColor = "##f94d4d";
+
+
+    // redColor = "#4d8cf9";
+
+
+    // function getRedColor(){
+    //     var redColor = "#f94d4d!!!!";
+    //     return redColor;
+    // }
+
+    // var redColor = getRedColor();
+    // console.log(redColor + " this is the red color");
+
+
+
+
+
+
+
+
 
     // get a css var value
     // var colorYellow = getComputedStyle(document.documentElement).getPropertyValue("--yellow");

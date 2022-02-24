@@ -319,6 +319,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
+    "\/dev\/js\/colors.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/colors-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/scripts.js" : {
       "bF" : 4,
       "ft" : 64,

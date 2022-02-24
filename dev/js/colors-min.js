@@ -1,0 +1,1 @@
+function setPrimaryColor(r){primaryColor=r}export function getPrimaryColor(){return"#0baabc"}
