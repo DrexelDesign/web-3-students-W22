@@ -93,7 +93,6 @@
     
             #gallery-7 {
                 align-items: center;
-                color: var(--yellow);
                 display: flex;
                 font-family: 'Pacifico', cursive;
                 grid-area: gallery-7;
@@ -102,6 +101,7 @@
                 h1 {
                     font-size: rem-calc(43);
                     font-weight: 400;
+                    color: var(--yellow);
     
                     @include md {
                         font-size: rem-calc(46);

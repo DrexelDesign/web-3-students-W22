@@ -1,6 +1,14 @@
 import { slideInRight, slideInLeft} from "./scrollAnimation.js"
 window.addEventListener('load', function(){
 
+    // get a css var value
+    // var colorYellow = getComputedStyle(document.documentElement).getPropertyValue("--yellow");
+    // console.log(colorYellow + " is the hex value for yellow");
+
+    // set a css var value
+    // colorYellow = this.document.documentElement.style.setProperty("--yellow", 'coral');
+
+
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
     function switchTheme(e) {
