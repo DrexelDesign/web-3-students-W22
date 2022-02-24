@@ -2,7 +2,7 @@
     Header
 ============= */
 header {
-    background-color: $white;
+    background-color: var(--white);
     left: 0;
     position: fixed;
     top: 0;
@@ -23,6 +23,11 @@ header {
         #logo-container {
             grid-area: logo;
             padding: 10px;
+            display: flex;
+
+            >div{
+                margin-left: 20px;
+            }
         }
 
         #burger-container {
@@ -43,13 +48,14 @@ header {
         }
 
         #nav-container {
-            background-color: $charcoal;
+            background-color: var(--charcoal);
             display: none;
             grid-area: nav;
             padding: 20px 10px 10px;
+           
 
             @include lg {
-                background-color: $white;
+                background-color: var(--white);
                 display: block !important;
             }
         }
