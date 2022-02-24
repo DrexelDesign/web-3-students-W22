@@ -13,8 +13,8 @@ export function slideInRight(triggerElement,animationElement ){
         scrollTrigger:{
             trigger: triggerElement,
             scrub:true,
-            toggleActions: "restart none resume none",
-            markers: true
+            toggleActions: "restart none resume none"
+            // markers: true
         }
     });
 }
@@ -29,8 +29,8 @@ export function slideInLeft(triggerElement,animationElement ){
         scrollTrigger:{
             trigger: triggerElement,
             scrub:true,
-            toggleActions: "restart none resume none",
-            markers: true
+            toggleActions: "restart none resume none"
+            // markers: true
         }
     });
 }
