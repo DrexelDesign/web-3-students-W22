@@ -463,3 +463,74 @@ nav ul li:last-child {
 /* =============
     Footer
 ============= */
+#projects {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". projects .";
+}
+@media (min-width: 1200px) {
+  #projects {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#projects > div {
+  grid-area: projects;
+}
+#projects > div header {
+  padding-top: 24px;
+}
+@media (min-width: 768px) {
+  #projects > div header {
+    padding-top: 36px;
+  }
+}
+#projects > div header h1 {
+  margin-bottom: 24px;
+}
+#projects > div #gallery ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  height: 90vh;
+}
+@media (min-width: 768px) {
+  #projects > div #gallery ul {
+    height: 40vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  #projects > div #gallery ul {
+    height: 60vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+    grid-template-areas: "p1 p1" "p1 p1" "p2 p3";
+  }
+}
+#projects > div #gallery ul li {
+  background-size: cover;
+  border: 1px solid red;
+}
+@media (min-width: 1200px) {
+  #projects > div #gallery ul li:nth-child(1) {
+    grid-area: p1;
+  }
+}
+@media (min-width: 1200px) {
+  #projects > div #gallery ul li:nth-child(2) {
+    grid-area: p2;
+  }
+}
+@media (min-width: 1200px) {
+  #projects > div #gallery ul li:nth-child(2) {
+    grid-area: p3;
+  }
+}
+#projects > div #gallery ul li a:link, #projects > div #gallery ul li a:visited {
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+  display: inline-block;
+}

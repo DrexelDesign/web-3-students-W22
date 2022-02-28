@@ -1,0 +1,82 @@
+#projects{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". projects .";
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+    >div{
+        grid-area: projects;
+
+
+        header{
+            padding-top: 24px;
+            @include md{
+                padding-top: 36px;
+            }
+
+
+            h1{
+                margin-bottom: 24px;
+            }
+
+        }
+
+        #gallery{
+            ul{
+                display: grid;
+                grid-template-rows: repeat(3, 1fr);
+                gap: 16px;
+                height: 90vh;
+
+                @include md{
+                    height: 40vh;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(1, 1fr);
+                }
+
+                @include xl{
+                    height: 60vh;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                    gap: 8px;
+                    grid-template-areas: 
+                    "p1 p1"
+                    "p1 p1"
+                    "p2 p3";
+                }
+
+                li{
+                    
+                    background-size: cover;
+                    border: 1px solid red;
+                    
+                    &:nth-child(1){
+                        @include xl{
+                            grid-area: p1;
+                        }
+                    }
+
+                    &:nth-child(2){
+                        @include xl{
+                            grid-area: p2;
+                        }
+                    }
+                    &:nth-child(2){
+                        @include xl{
+                            grid-area: p3;
+                        }
+                    }
+
+                    a:link, a:visited{
+                        height: 100%;
+                        width: 100%;
+                        border: 1px solid red;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
