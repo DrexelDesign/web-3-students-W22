@@ -50,7 +50,8 @@
                 li{
                     
                     background-size: cover;
-                    border: 1px solid red;
+                    background-position: center;
+                    // border: 1px solid red;
                     
                     &:nth-child(1){
                         @include xl{
@@ -72,7 +73,7 @@
                     a:link, a:visited{
                         height: 100%;
                         width: 100%;
-                        border: 1px solid red;
+                        // border: 1px solid red;
                         display: inline-block;
                     }
                 }

@@ -1506,6 +1506,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/wilco-van-meppelen-mx2rQXheFtg-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 430914,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/wilco-van-meppelen-mx2rQXheFtg-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/wolfgang-hasselmann-CY6MLcLvdX0-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 1071277,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/wolfgang-hasselmann-CY6MLcLvdX0-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1517,6 +1543,32 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/projects\/cows\/cow-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 1972821,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/cows\/cow-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/cows\/cow-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 963737,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/cows\/cow-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/projects\/turtles\/turtle-1.jpg" : {
       "ft" : 16384,
@@ -1537,6 +1589,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/projects\/turtles\/turtle-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/zoo\/zoo-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 963737,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/zoo\/zoo-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/zoo\/zoo-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 1497995,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/zoo\/zoo-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1571,6 +1649,14 @@
       "oAP" : "\/design\/structure-tags.sketch",
       "oF" : 0
     },
+    "\/dev\/content\/detail-content" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/detail-content",
+      "oF" : 0
+    },
     "\/dev\/content\/projects.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1578,6 +1664,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects.html",
       "oF" : 0
+    },
+    "\/dev\/detail.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/detial.html",
+      "oF" : 2
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -1619,12 +1713,23 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
-    "\/dev\/js\/projects.js" : {
+    "\/dev\/js\/projects-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/projects-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/projects.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/js\/projects-min.js",
       "oF" : 0,
       "sC" : 3,
