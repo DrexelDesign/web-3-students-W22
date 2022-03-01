@@ -534,6 +534,11 @@ nav ul li:last-child {
   display: inline-block;
 }
 
+#moreImg {
+  height: 50vh;
+  width: 100%;
+}
+
 #detail {
   display: grid;
   grid-template-columns: 16px auto 16px;

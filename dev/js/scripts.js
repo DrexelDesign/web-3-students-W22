@@ -8,13 +8,18 @@ window.addEventListener('load', function() {
     let heroImgArray = document.querySelectorAll('#gallery li');
     // iterate over the heroImgArray and populate the background images
     heroImgArray.forEach((heroImg, i) => {
+
+        // first pass in the array
+        // heroImg.style.backgroundImage = "url(./img/projects/turtles/turtle-1.jpg)";
+
         heroImg.style.backgroundImage = "url(" + projects[i].images[0] + ")";
+
     });
 
     let heroLinks = document.querySelectorAll("#gallery a");
 
     heroLinks.forEach((link, i) => {
-        console.log("hello");
+        // console.log("hello");
 
         link.addEventListener("click", () =>{
             localStorage.setItem("indexValue", i);

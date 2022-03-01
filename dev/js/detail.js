@@ -12,8 +12,20 @@ window.addEventListener('load', function() {
         let description = document.querySelector("#detail p");
         description.innerHTML = projects[localStorage.getItem("indexValue")].description;
 
-        let heroImg = document.querySelector("#detail-hero");
-        heroImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[1] + ")";
+
+
+        let imgDetailsArray = this.document.querySelectorAll(".detail-imgs");
+
+        imgDetailsArray.forEach((image, i) => {
+            imgDetailsArray[i].style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[i] + ")";
+        });
+
+        // let heroImg = document.querySelector("#detail-hero");
+        // heroImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[1] + ")";
+
+        // let moreImg = document.querySelector("#moreImg");
+        // moreImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[0] + ")";
+        
 });
 
 
