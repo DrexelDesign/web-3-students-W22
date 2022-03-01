@@ -9,6 +9,19 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/assets\/andy-holmes-D6TqIa-tWRY-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 1171851,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/andy-holmes-D6TqIa-tWRY-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/burger.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -18,6 +31,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/giorgia-doglioni-3GgbJx7hg14-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 2616652,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/giorgia-doglioni-3GgbJx7hg14-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/gsap-shockingly-green\/docs-link.html" : {
       "cB" : 0,
@@ -1415,6 +1441,71 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/assets\/jude-infantini-4tLNF0mZTVk-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 1324151,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/jude-infantini-4tLNF0mZTVk-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/naja-bertolt-jensen-Uu1CtKngEXY-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 2005698,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/naja-bertolt-jensen-Uu1CtKngEXY-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/redcharlie-jNtv6K1RFek-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 1589168,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/redcharlie-jNtv6K1RFek-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/thomas-oldenburger-1SQFd9_zNW4-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 2518921,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/thomas-oldenburger-1SQFd9_zNW4-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/wexor-tmg-L-2p8fapOA8-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 225719,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/wexor-tmg-L-2p8fapOA8-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1426,6 +1517,32 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/projects\/turtles\/turtle-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 162952,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/turtles\/turtle-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/projects\/turtles\/turtle-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 338679,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/turtles\/turtle-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -1501,6 +1618,17 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
+    },
+    "\/dev\/js\/projects.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/projects-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 4,
