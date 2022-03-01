@@ -533,3 +533,35 @@ nav ul li:last-child {
   width: 100%;
   display: inline-block;
 }
+
+#detail {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". detail .";
+  padding-top: 50px;
+  position: relative;
+}
+@media (min-width: 1200px) {
+  #detail {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#detail > div {
+  grid-area: detail;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+#detail > div button {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background-color: transparent;
+  color: coral;
+  font-weight: 600;
+  cursor: pointer;
+}
+#detail > div #detail-hero {
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}

@@ -6,12 +6,12 @@ export let projects = [
     },
     {
         title:"Cows",
-        description:"Aliquam facilisis vestibulum ullamcorper. Sed nec commodo lorem. Cras bibendum purus et est tristique, eu commodo nibh aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla eu luctus ex. Curabitur est quam, luctus bibendum ante vitae, posuere tincidunt lorem. Morbi condimentum lacinia semper. In sed lorem sit amet velit mattis aliquam et sit amet ex. Praesent et cursus quam, vel vehicula sem. Phasellus sollicitudin pretium magna, id vehicula elit suscipit eu. Quisque dignissim metus orci, in ultrices lacus egestas nec. Proin accumsan quam vel diam luctus, sit amet hendrerit tortor hendrerit. Etiam nisi felis, imperdiet condimentum tincidunt nec, dignissim porta tellus.",
+        description:"Ut id dui sed sapien sagittis commodo. Ut semper facilisis arcu eu pretium. Vivamus sit amet pharetra erat. Curabitur a sem sed dui accumsan tincidunt. Aliquam felis mi, eleifend at urna vel, laoreet malesuada risus. Morbi pellentesque fringilla purus eu rutrum. Nullam convallis aliquam risus. Donec ex augue, semper et felis vel, tempor posuere erat.",
         images:['./img/projects/cows/cow-1.jpg','./img/projects/cows/cow-2.jpg']
     },
     {
         title:"Zoo Animals",
-        description:"Aliquam facilisis vestibulum ullamcorper. Sed nec commodo lorem. Cras bibendum purus et est tristique, eu commodo nibh aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla eu luctus ex. Curabitur est quam, luctus bibendum ante vitae, posuere tincidunt lorem. Morbi condimentum lacinia semper. In sed lorem sit amet velit mattis aliquam et sit amet ex. Praesent et cursus quam, vel vehicula sem. Phasellus sollicitudin pretium magna, id vehicula elit suscipit eu. Quisque dignissim metus orci, in ultrices lacus egestas nec. Proin accumsan quam vel diam luctus, sit amet hendrerit tortor hendrerit. Etiam nisi felis, imperdiet condimentum tincidunt nec, dignissim porta tellus.",
+        description:"Duis ultricies feugiat erat eget tempor. Vestibulum bibendum est eu posuere suscipit. Pellentesque tincidunt sapien vitae elit vulputate vestibulum. Proin vel molestie ex. Ut vehicula nibh eu laoreet commodo. Aenean volutpat, nibh in faucibus semper, ipsum est feugiat ex, in volutpat sapien lacus ac massa. Vivamus vel nisi et sapien ullamcorper luctus sit amet sed magna. Sed porttitor sem id eros rhoncus aliquam. Phasellus dapibus, purus a consequat venenatis, nunc diam aliquam tellus, eget congue ante risus a augue. Morbi ut massa ut turpis consequat tincidunt.",
         images:['./img/projects/zoo/zoo-1.jpg','./img/projects/zoo/zoo-2.jpg']
     }
 ]; 
