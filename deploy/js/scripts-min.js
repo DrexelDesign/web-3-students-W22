@@ -1,1 +1,1 @@
-!function(){"use strict";$((function(){console.log($),$("#multiscroll").multiscroll()}))}();
+!function(){"use strict";$((function(){$("#multiscroll").multiscroll()}))}();
