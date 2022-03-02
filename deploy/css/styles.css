@@ -463,3 +463,21 @@ nav ul li:last-child {
 /* =============
     Footer
 ============= */
+#multiscroll .ms-left #left-1 {
+  background-color: coral;
+}
+#multiscroll .ms-left #left-2 {
+  background-color: deeppink;
+}
+#multiscroll .ms-left #left-3 {
+  background-color: lightseagreen;
+}
+#multiscroll .ms-right #right-1 {
+  background-color: coral;
+}
+#multiscroll .ms-right #right-2 {
+  background-color: deeppink;
+}
+#multiscroll .ms-right #right-3 {
+  background-color: lightseagreen;
+}

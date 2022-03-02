@@ -8,6 +8,8 @@
   "repository": {},
   "private": true,
   "dependencies": {
-    "gsap": "file:gsap-bonus.tgz"
+    "gsap": "file:gsap-bonus.tgz",
+    "jquery": "^3.6.0",
+    "multiscroll.js": "^0.2.3"
   }
 }
