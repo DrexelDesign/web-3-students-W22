@@ -1,15 +1,20 @@
-<<<<<<< HEAD
 
 import { gsap } from "gsap";
-
-import { slideInRight, slideInLeft} from "./scrollAnimation.js"
 import {getPrimaryColor} from "./colors"
+import { slideInRight, slideInLeft} from "./scrollAnimation.js"
+
+
+
+// var
+// const
+// final
 
 
 
 window.addEventListener('load', function(){
 
-    // set the primary color from scripts.js
+
+     // set the primary color from scripts.js
 
     // var color = setPrimaryColor("#e50606");
 
@@ -122,21 +127,9 @@ window.addEventListener('load', function(){
             toggleSwitch.checked = true;
         }
     }
-=======
-// import { skillsTrigger } from "./scrollAnimation.js"
->>>>>>> parent of 06e0e20 (demo complete)
-
-import { slideInRight, slideInLeft} from "./scrollAnimation.js"
 
 
 
-// var
-// const
-// final
-
-
-
-window.addEventListener('load', function(){
 
 
 
