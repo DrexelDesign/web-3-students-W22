@@ -1,6 +1,6 @@
 
 import { gsap } from "gsap";
-import {getPrimaryColor} from "./colors"
+// import {getPrimaryColor} from "./colors"
 import { slideInRight, slideInLeft} from "./scrollAnimation.js"
 
 
@@ -21,37 +21,10 @@ window.addEventListener('load', function(){
     // console.log(primaryColor + " this is primary color");
 
 
-    gsap.to("body",{duration:1, backgroundColor: getPrimaryColor()});
-
-
-    console.log(getPrimaryColor() + " this is what was returned to me");
+    // gsap.to("body",{duration:1, backgroundColor: getPrimaryColor()});
+    // console.log(getPrimaryColor() + " this is what was returned to me");
 
     // console.log(getPrimaryColor() + " this is primary color");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     // var redColor = "red";
 
@@ -81,13 +54,6 @@ window.addEventListener('load', function(){
     // console.log(redColor + " this is the red color");
 
 
-
-
-
-
-
-
-
     // get a css var value
     // var colorYellow = getComputedStyle(document.documentElement).getPropertyValue("--yellow");
     // console.log(colorYellow + " is the hex value for yellow");
@@ -100,13 +66,15 @@ window.addEventListener('load', function(){
 
     function switchTheme(e) {
 
-       
+        
 
         if (e.target.checked) {
+            console.log("1");
             document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem('theme', 'dark'); //add this
         }
         else {
+            console.log("2");
             document.documentElement.setAttribute('data-theme', 'light');
             localStorage.setItem('theme', 'light'); //add this
         }    
@@ -115,8 +83,6 @@ window.addEventListener('load', function(){
         console.log(toggleSwitch.checked + ' this is the value for the checkbox');
         e.stopPropagation();
     }
-
-    toggleSwitch.addEventListener('change', switchTheme, false);
 
     const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 
@@ -128,6 +94,7 @@ window.addEventListener('load', function(){
         }
     }
 
+    toggleSwitch.addEventListener('change', switchTheme, false);
 
 
 

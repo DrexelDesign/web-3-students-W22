@@ -23,3 +23,18 @@ $yellow: #F8C832;
 $charcoal: #222222;
 
 // $grey: rgba(0,0,0,0.9);
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --yellow: #F8C832;
+    --charcoal: #222222;
+}
+
+
+[data-theme="dark"] {
+    --white: #000;
+    --black: #fff;
+    --yellow: #937006;
+    --charcoal: #333;
+}

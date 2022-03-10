@@ -49,7 +49,7 @@ header {
             padding: 20px 10px 10px;
 
             @include lg {
-                background-color: $white;
+                background-color: var(--white);
                 display: block !important;
             }
         }

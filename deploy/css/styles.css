@@ -10,6 +10,20 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --white: #fff;
+  --black: #000;
+  --yellow: #F8C832;
+  --charcoal: #222222;
+}
+
+[data-theme=dark] {
+  --white: #000;
+  --black: #fff;
+  --yellow: #937006;
+  --charcoal: #333;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -352,6 +366,9 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: var(--white);
+}
 body ul {
   margin: 0;
   padding: 0;
@@ -419,14 +436,14 @@ textarea {
 @media (min-width: 1024px) {
   #nav-container ul li {
     align-items: center;
-    border-right: 2px solid #222222;
+    border-right: 2px solid var(--charcoal);
     display: flex;
     margin-bottom: 0px;
   }
 }
 #nav-container ul li a:link,
 #nav-container ul li a:visited {
-  color: #fff;
+  color: var(--white);
   font-family: "Comfortaa", cursive;
   padding: 0 20px;
   text-decoration: none;
@@ -435,13 +452,13 @@ textarea {
 @media (min-width: 1024px) {
   #nav-container ul li a:link,
 #nav-container ul li a:visited {
-    color: #000;
+    color: var(--black);
   }
 }
 #nav-container ul li a:link:hover, #nav-container ul li a:link:active,
 #nav-container ul li a:visited:hover,
 #nav-container ul li a:visited:active {
-  color: #F8C832;
+  color: var(--yellow);
 }
 #nav-container ul li:last-child {
   border: none;
@@ -496,7 +513,7 @@ header > div #nav-container {
 }
 @media (min-width: 1024px) {
   header > div #nav-container {
-    background-color: #fff;
+    background-color: var(--white);
     display: block !important;
   }
 }
@@ -505,7 +522,7 @@ header > div #nav-container {
     Footer
 ============= */
 footer {
-  background-color: #F8C832;
+  background-color: var(--yellow);
   display: grid;
   grid-template-areas: ". footer .";
   grid-template-columns: 10px auto 10px;
@@ -520,7 +537,7 @@ footer > div h1 {
   margin-bottom: 10px;
 }
 footer > div h1 span {
-  color: #fff;
+  color: var(--white);
 }
 footer > div ul {
   display: flex;
@@ -531,14 +548,14 @@ footer > div ul li {
 }
 footer > div ul li a:link,
 footer > div ul li a:visited {
-  color: #000;
+  color: var(--black);
   font-size: 1.875rem;
   transition: 0.25s;
 }
 footer > div ul li a:link:hover, footer > div ul li a:link:active,
 footer > div ul li a:visited:hover,
 footer > div ul li a:visited:active {
-  color: #fff;
+  color: var(--white);
 }
 
 /* =============
@@ -732,7 +749,7 @@ footer > div ul li a:visited:active {
 }
 #skills > div #skills-content {
   background-color: #222222;
-  color: #fff;
+  color: var(--white);
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". skills .";
@@ -786,13 +803,13 @@ footer > div ul li a:visited:active {
   margin-left: auto;
 }
 #skills > div #skills-content > div ul li .bottom {
-  background-color: #000;
+  background-color: var(--black);
   height: 9px;
   margin-top: 5px;
   width: 100%;
 }
 #skills > div #skills-content > div ul li .bottom > div {
-  background-color: #F8C832;
+  background-color: var(--yellow);
   height: 9px;
 }
 #skills > div #skills-content > div ul #emotion .yellow-bar {
@@ -912,10 +929,7 @@ footer > div ul li a:visited:active {
 }
 #skynet > div ul #gallery-7 {
   align-items: center;
-<<<<<<< HEAD
-=======
-  color: #F8C832;
->>>>>>> parent of 06e0e20 (demo complete)
+  color: var(--yellow);
   display: flex;
   font-family: "Pacifico", cursive;
   grid-area: gallery-7;
@@ -930,4 +944,63 @@ footer > div ul li a:visited:active {
   #skynet > div ul #gallery-7 h1 {
     font-size: 2.875rem;
   }
+}
+
+/*Simple css to style it like a toggle switch*/
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+.theme-switch-wrapper em {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: var(--yellow);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
