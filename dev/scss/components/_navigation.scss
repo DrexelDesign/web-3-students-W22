@@ -16,25 +16,25 @@
 
             @include lg {
                 align-items: center;
-                border-right: 2px solid var(--charcoal);
+                border-right: 2px solid $charcoal;
                 display: flex;
                 margin-bottom: 0px;
             }
 
             a:link,
             a:visited {
-                color: var(--white);
+                color: $white;
                 font-family: 'Comfortaa', cursive;
                 padding: 0 20px;
                 text-decoration: none;
                 transition: 0.25s;
                 @include lg {
-                    color: var(--black);
+                    color: $black;
                 }
 
                 &:hover,
                 &:active {
-                    color: var(--yellow);
+                    color: $yellow;
                 }
             }
         }

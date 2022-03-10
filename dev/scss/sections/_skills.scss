@@ -37,8 +37,8 @@
         }
     
         #skills-content{
-            background-color: var(--charcoal);
-            color: var(--white);
+            background-color: $charcoal;
+            color: $white;
             display: grid;
             grid-template-columns: 16px auto 16px;
             grid-template-areas: ". skills .";  
@@ -101,13 +101,13 @@
                         }
 
                         .bottom {
-                            background-color: var(--black);
+                            background-color: $black;
                             height: 9px;
                             margin-top: 5px;
                             width: 100%;
 
                             >div {
-                                background-color: var(--yellow);
+                                background-color: $yellow;
                                 height: 9px;
                             }
                         }

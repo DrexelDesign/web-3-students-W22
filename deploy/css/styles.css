@@ -10,20 +10,6 @@ html {
 /* =============
     Variables
 ============= */
-:root {
-  --white: #fff;
-  --black: #000;
-  --yellow: #F8C832;
-  --charcoal: #222222;
-}
-
-[data-theme=dark] {
-  --white: #000;
-  --black: #fff;
-  --yellow: #937006;
-  --charcoal: #333;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -366,9 +352,6 @@ template {
 /* =============
     Base
 ============= */
-body {
-  background-color: var(--white);
-}
 body ul {
   margin: 0;
   padding: 0;
@@ -436,14 +419,14 @@ textarea {
 @media (min-width: 1024px) {
   #nav-container ul li {
     align-items: center;
-    border-right: 2px solid var(--charcoal);
+    border-right: 2px solid #222222;
     display: flex;
     margin-bottom: 0px;
   }
 }
 #nav-container ul li a:link,
 #nav-container ul li a:visited {
-  color: var(--white);
+  color: #fff;
   font-family: "Comfortaa", cursive;
   padding: 0 20px;
   text-decoration: none;
@@ -452,13 +435,13 @@ textarea {
 @media (min-width: 1024px) {
   #nav-container ul li a:link,
 #nav-container ul li a:visited {
-    color: var(--black);
+    color: #000;
   }
 }
 #nav-container ul li a:link:hover, #nav-container ul li a:link:active,
 #nav-container ul li a:visited:hover,
 #nav-container ul li a:visited:active {
-  color: var(--yellow);
+  color: #F8C832;
 }
 #nav-container ul li:last-child {
   border: none;
@@ -468,7 +451,7 @@ textarea {
     Header
 ============= */
 header {
-  background-color: var(--white);
+  background-color: #fff;
   left: 0;
   position: fixed;
   top: 0;
@@ -488,10 +471,6 @@ header > div {
 header > div #logo-container {
   grid-area: logo;
   padding: 10px;
-  display: flex;
-}
-header > div #logo-container > div {
-  margin-left: 20px;
 }
 header > div #burger-container {
   align-items: center;
@@ -510,14 +489,14 @@ header > div #burger-container i {
   font-size: 1.875rem;
 }
 header > div #nav-container {
-  background-color: var(--charcoal);
+  background-color: #222222;
   display: none;
   grid-area: nav;
   padding: 20px 10px 10px;
 }
 @media (min-width: 1024px) {
   header > div #nav-container {
-    background-color: var(--white);
+    background-color: #fff;
     display: block !important;
   }
 }
@@ -526,7 +505,7 @@ header > div #nav-container {
     Footer
 ============= */
 footer {
-  background-color: var(--yellow);
+  background-color: #F8C832;
   display: grid;
   grid-template-areas: ". footer .";
   grid-template-columns: 10px auto 10px;
@@ -541,7 +520,7 @@ footer > div h1 {
   margin-bottom: 10px;
 }
 footer > div h1 span {
-  color: var(--white);
+  color: #fff;
 }
 footer > div ul {
   display: flex;
@@ -552,14 +531,14 @@ footer > div ul li {
 }
 footer > div ul li a:link,
 footer > div ul li a:visited {
-  color: var(--black);
+  color: #000;
   font-size: 1.875rem;
   transition: 0.25s;
 }
 footer > div ul li a:link:hover, footer > div ul li a:link:active,
 footer > div ul li a:visited:hover,
 footer > div ul li a:visited:active {
-  color: var(--white);
+  color: #fff;
 }
 
 /* =============
@@ -616,7 +595,7 @@ footer > div ul li a:visited:active {
   }
 }
 #history > div #history-first > div h1 {
-  color: var(--yellow);
+  color: #F8C832;
   font-family: "Comfortaa", cursive;
   font-size: 3rem;
   font-weight: 700;
@@ -752,8 +731,8 @@ footer > div ul li a:visited:active {
   }
 }
 #skills > div #skills-content {
-  background-color: var(--charcoal);
-  color: var(--white);
+  background-color: #222222;
+  color: #fff;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". skills .";
@@ -807,13 +786,13 @@ footer > div ul li a:visited:active {
   margin-left: auto;
 }
 #skills > div #skills-content > div ul li .bottom {
-  background-color: var(--black);
+  background-color: #000;
   height: 9px;
   margin-top: 5px;
   width: 100%;
 }
 #skills > div #skills-content > div ul li .bottom > div {
-  background-color: var(--yellow);
+  background-color: #F8C832;
   height: 9px;
 }
 #skills > div #skills-content > div ul #emotion .yellow-bar {
@@ -933,6 +912,10 @@ footer > div ul li a:visited:active {
 }
 #skynet > div ul #gallery-7 {
   align-items: center;
+<<<<<<< HEAD
+=======
+  color: #F8C832;
+>>>>>>> parent of 06e0e20 (demo complete)
   display: flex;
   font-family: "Pacifico", cursive;
   grid-area: gallery-7;
@@ -947,63 +930,4 @@ footer > div ul li a:visited:active {
   #skynet > div ul #gallery-7 h1 {
     font-size: 2.875rem;
   }
-}
-
-/*Simple css to style it like a toggle switch*/
-.theme-switch-wrapper {
-  display: flex;
-  align-items: center;
-}
-.theme-switch-wrapper em {
-  margin-left: 10px;
-  font-size: 1rem;
-}
-
-.theme-switch {
-  display: inline-block;
-  height: 34px;
-  position: relative;
-  width: 60px;
-}
-
-.theme-switch input {
-  display: none;
-}
-
-.slider {
-  background-color: #ccc;
-  bottom: 0;
-  cursor: pointer;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: 0.4s;
-}
-
-.slider:before {
-  background-color: #fff;
-  bottom: 4px;
-  content: "";
-  height: 26px;
-  left: 4px;
-  position: absolute;
-  transition: 0.4s;
-  width: 26px;
-}
-
-input:checked + .slider {
-  background-color: var(--yellow);
-}
-
-input:checked + .slider:before {
-  transform: translateX(26px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
 }
