@@ -87,12 +87,14 @@ window.addEventListener('load', function(){
     // console.log(colorYellow + " is the hex value for yellow");
 
     // set a css var value
-    // colorYellow = document.documentElement.style.setProperty("--yellow", 'coral');
+    // colorYellow = this.document.documentElement.style.setProperty("--yellow", 'coral');
 
 
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
     function switchTheme(e) {
+
+       
 
         if (e.target.checked) {
             document.documentElement.setAttribute('data-theme', 'dark');
@@ -103,8 +105,9 @@ window.addEventListener('load', function(){
             localStorage.setItem('theme', 'light'); //add this
         }    
 
+
         console.log(toggleSwitch.checked + ' this is the value for the checkbox');
-        // e.stopPropagation();
+        e.stopPropagation();
     }
 
     toggleSwitch.addEventListener('change', switchTheme, false);
